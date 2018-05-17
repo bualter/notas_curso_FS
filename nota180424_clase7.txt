@@ -1,0 +1,21 @@
+Barras de navegación
+
+nunca aplicar Display inline
+
+Si las cajas tienen que encajar a la perfeccion, flotar las cajas. Si no hace falta que esten taaan encajadas, puede estar inline-block.
+Si los espacios del medio tambien tienen q estar "justos", usar flotacion.
+
+:: lo que sea <- pseudoselector
+
+https://www.iconfinder.com/
+
+https://necolas.github.io/normalize.css/
+
+http://ionicons.com/
+
+.- Arrancar por el diseño mobile
+.- primero en css aplicar el comportamiento
+
+.- si no es necesario, nunca usar el width, es mejor usar padding.
+
+color picker - aplicacion para elegir el color

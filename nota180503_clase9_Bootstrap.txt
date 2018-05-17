@@ -1,0 +1,28 @@
+no  en el selector universal (*) display: flex, en el body tampoco
+body: letra, tamaño y poco mas, lo mas simple posible.
+
+BOOTSTRAP
+Es una libreria, no un framework
+
+libreria: de JS: jquery, angular, react
+
+      de css: Normalize, googlefonts, ionicons,
+
+framework: marco de trabajo, x ej, laravel, q es para manejar back end.
+
+SASS -> preprocesador para CSS
+
+styles.min.css
+minificar CSS
+styles.min.css
+
+
+html
+ -> link BOOTSTRAP
+ *
+ *
+ * (casi al final)
+ -> link js jquery
+ -> link js BOOTSTRAP
+
+https://hackerthemes.com/bootstrap-cheatsheet/

@@ -1,0 +1,65 @@
+https://flexboxfroggy.com/#es
+https://hackerthemes.com/bootstrap-cheatsheet/
+
+Terminal, GIT y GitHub
+
+terminal-> consola, cmd, o power
+
+editar en Linux con nano, o vim
+
+GIT
+
+  Git -> repositorio local
+  GitHub -> repositorio remoto
+
+  https://git-scm.com/
+
+  ubuntu:
+
+  git --version
+  sudo apt-get update
+  sudo apt-get install git-core
+
+
+get init -> para crear el repositorio vacio
+
+git config user.name "bualter"
+git config user.email "walterjgonzalez@gmail.com"
+
+git config --global user.name "bualter"  >> para que cuando cree algo en esta PC lo guarde con mi usuario
+git config --global user.email "walterjgonzalez@gmail.com"  >> para que cuando cree algo en esta PC lo guarde con mi usuario
+
+
+git remote add origin https://github.com/bualter/prueba_180508.git
+
+
+repo local = stage (es temporal)
+
+git status
+
+git add . >> el punto es para agregar todo lo q esta en el subvolumen q estoy
+
+
+hito -> commit
+
+commitear -> pasar del stage al timeline, creando un hito
+
+git commit -m "agrego index y hoja de estilo"
+
+hasta aca lo tengo en la pc local, no esta en la nube
+
+git log --oneline
+
+git push origin master  >> para subirlo al repo remoto
+
+
++++++++++++++++++++++
+
+
+en casa, para bajarlo
+
+clonar
+git clon "url"
+
+
+git pull origin master  >> bajar los cambios a mi pc

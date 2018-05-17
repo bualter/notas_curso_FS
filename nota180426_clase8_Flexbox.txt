@@ -1,0 +1,14 @@
+CDN
+Content delivery Network
+http://code.jquery.com/ (Version minified
+
+los media query siempre van al final
+
+*******************************
+FLEXBOX
+
+https://caniuse.com/#feat=flexbox
+
+BEM Bloque elemento modificador
+
+https://flexboxfroggy.com/#es

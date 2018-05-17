@@ -1,0 +1,43 @@
+Al contenedor ponerle overflow: hidden ->esto es para que entren los "hijos", para que se "estire" el largo de los hijos
+al footer ponerle clar: both, como no esta flotando, pero los de arriba si, este se va a ir para abajo, de ellos (va a subir, pero va a quedar detras), por eso hay qye "limpiar" la flotacion.
+
+El clear booth es para que lo que esta abajo no se valla para arriba.
+
+El margen se aplica del borde para afuera. separa al objeto con lo q se rodea.
+El relleno se aplica del borde para adentro.
+Padding top,right, bottom, left.
+
+
+Padding 20 50, el primer valor es para arriba y para abajo, el segundo para los costados.
+padding 20 30 40, arriba 20, derecha e izquierda 30, izquierda 40.
+
+
+Posionamiento estatico: esta por defecto para todos.
+
+posicionamiento relativo: no comparte capa conflotacion. Saca de contexto. El lugar original se mantiene.
+
+Posicinamiento absoluto: se desplaza respecto al body, en este caso, el marco visual del browser (viewport). (abajo a la derecha de la pantalla)
+  No respeta la posicion original.
+  Tiene como limite algo q tenga posicionamiento relativo (su contenedor)
+
+El hijo (de posicion absoluta) se posiciona respecto al padre, siempre y cuando el padre tenga un posicionamiento distinto a estatico.
+Se posiciona respecto al predecesor que tenga un posicionamiento distinto a estatico.
+
+un elemento no va a heredar el ancho de su padre si:
+  .- flota
+  .- no es elemento de bloque
+  .- es de posicionamiento absoluto
+
+  Esta bueno usar el selector "*" indicando el box-sizing: border-box
+
+    .producto:hover .producto-info{
+      display:block
+    }
+se leeria:"a producto-info cuando le haces un hover al padre, ponele display block" (producto-info es hijo de producto)
+
+tarea: transition
+
+
+Como arrancar con los estilos: definir las bases
+  .- las definiciones para "*"
+  .- poner imagen de fondo al body

@@ -1,0 +1,8 @@
+http://librosweb.es/libro/css/
+https://www.w3schools.com/
+https://www.w3c.es/
+falcon master ->  youtube
+
+https://abookapart.com/
+
+Cuando la pagina es responsive, el contenedor tiene que tener un maximo (1200px) y las medidas de las cosas de adentro tienen que estar medidas en %.
